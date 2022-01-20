@@ -1,17 +1,11 @@
-## My Project
+# dtsx-sql-extractor
+This utility extracts SQL statements from an SSIS package and creates a config file using a key-value format where the key is the name of the SSIS stage containing the SQL and the value is the SQL Query. 
 
-TODO: Fill this README out!
+## Usage
+`SSISExtractor.py --filename 'test.dtsx' --source 'postgres'`
 
-Be sure to:
+--filename : The DTSX file that needs to be parsed  
+--source : If the value is set to "sqlserver", the utility will perform syntax conversion to PostgresSQL
 
-* Change the title in this README
-* Edit your repository description on GitHub
-
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This project is licensed under the Apache-2.0 License.
-
+## Author
+Jerome Rajan (https://github.com/datasherlock)
