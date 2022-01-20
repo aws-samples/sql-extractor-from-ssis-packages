@@ -9,4 +9,5 @@ This utility extracts SQL statements from an SSIS package and creates a config f
 
 ## Author
 Jerome Rajan (https://github.com/datasherlock)
+
 Durga Prasad
